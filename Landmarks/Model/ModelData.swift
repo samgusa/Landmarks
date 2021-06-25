@@ -6,8 +6,13 @@
 //
 
 import Foundation
+import Combine
 
-var landmarks: [Landmark] = load("landmarkData.json")
+//an observable object needs to publish any changes to its data, so that its subscribers can pick up the change.
+final class ModelData: ObservableObject {
+    @Published var landmarks: [Landmark] = load("landmarkData.json")
+}
+
 
 //fetches JSON data with given name from app's main bundle
 func load<T: Decodable>(_ filename: String) -> T {

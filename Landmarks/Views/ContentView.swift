@@ -14,7 +14,9 @@ struct ContentView: View {
 }
 
 struct ContentView_Previews: PreviewProvider {
+    //a preview fails if any subview requires a model object in the environment, but the view you are previewing doesn't have the environment object modifier. 
     static var previews: some View {
         ContentView()
+            .environmentObject(ModelData())
     }
 }
