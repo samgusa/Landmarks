@@ -11,6 +11,8 @@ import Combine
 //an observable object needs to publish any changes to its data, so that its subscribers can pick up the change.
 final class ModelData: ObservableObject {
     @Published var landmarks: [Landmark] = load("landmarkData.json")
+    //because you'll never modify hike data after initial loading it, you don't need to mark it with @Published
+    var hikes: [Hike] = load("hikeData.json")
 }
 
 
