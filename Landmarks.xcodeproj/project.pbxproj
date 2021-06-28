@@ -11,6 +11,11 @@
 		FE4DF51B2689154D00658D23 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DF51A2689154D00658D23 /* CategoryHome.swift */; };
 		FE4DF520268918AB00658D23 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DF51F268918AB00658D23 /* CategoryRow.swift */; };
 		FE4DF52826891AE800658D23 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DF52726891AE800658D23 /* CategoryItem.swift */; };
+		FE4DF5362689289E00658D23 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DF5352689289E00658D23 /* Profile.swift */; };
+		FE4DF53C268929FA00658D23 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DF53B268929FA00658D23 /* ProfileHost.swift */; };
+		FE4DF54426892A9500658D23 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DF54326892A9500658D23 /* ProfileSummary.swift */; };
+		FE4DF55226892D8A00658D23 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DF55126892D8A00658D23 /* HikeBadge.swift */; };
+		FE4DF55D268957C600658D23 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4DF55C268957C600658D23 /* ProfileEditor.swift */; };
 		FE6F4E3B2681769D00F25FDD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F4E3A2681769D00F25FDD /* CircleImage.swift */; };
 		FE6F4E40268178A200F25FDD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6F4E3F268178A200F25FDD /* MapView.swift */; };
 		FE8CF7212682713500B5BA3A /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = FE8CF7202682713500B5BA3A /* landmarkData.json */; };
@@ -60,6 +65,11 @@
 		FE4DF51A2689154D00658D23 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		FE4DF51F268918AB00658D23 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		FE4DF52726891AE800658D23 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		FE4DF5352689289E00658D23 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		FE4DF53B268929FA00658D23 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		FE4DF54326892A9500658D23 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		FE4DF55126892D8A00658D23 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		FE4DF55C268957C600658D23 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		FE6F4E3A2681769D00F25FDD /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		FE6F4E3F268178A200F25FDD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		FE8CF7202682713500B5BA3A /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
@@ -138,9 +148,21 @@
 			path = Landmarks;
 			sourceTree = "<group>";
 		};
+		FE4DF53A268929D900658D23 /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				FE4DF53B268929FA00658D23 /* ProfileHost.swift */,
+				FE4DF54326892A9500658D23 /* ProfileSummary.swift */,
+				FE4DF55126892D8A00658D23 /* HikeBadge.swift */,
+				FE4DF55C268957C600658D23 /* ProfileEditor.swift */,
+			);
+			path = Profiles;
+			sourceTree = "<group>";
+		};
 		FE8CF72F26827D4400B5BA3A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FE4DF53A268929D900658D23 /* Profiles */,
 				FEBB6FE926880C81004CC151 /* Hikes */,
 				FE8CF7592682C94A00B5BA3A /* ContentView.swift */,
 				FE05B49A268571EC004606DB /* Landmarks */,
@@ -168,6 +190,7 @@
 				FE8CF72A268275F000B5BA3A /* ModelData.swift */,
 				FE8CF7252682716900B5BA3A /* Landmark.swift */,
 				FEBB6FE126880B3B004CC151 /* Hike.swift */,
+				FE4DF5352689289E00658D23 /* Profile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -387,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE4DF520268918AB00658D23 /* CategoryRow.swift in Sources */,
+				FE4DF5362689289E00658D23 /* Profile.swift in Sources */,
 				FE6F4E40268178A200F25FDD /* MapView.swift in Sources */,
 				FE4DF51B2689154D00658D23 /* CategoryHome.swift in Sources */,
 				FEBB6FEF26880C81004CC151 /* HikeGraph.swift in Sources */,
@@ -397,14 +421,18 @@
 				FE05B49526856F51004606DB /* FavoriteButton.swift in Sources */,
 				FE4DF52826891AE800658D23 /* CategoryItem.swift in Sources */,
 				FEBB6FF026880C81004CC151 /* HikeDetail.swift in Sources */,
+				FE4DF54426892A9500658D23 /* ProfileSummary.swift in Sources */,
 				FEFEDF7F2686B9360044CFCB /* HexagonParameters.swift in Sources */,
+				FE4DF53C268929FA00658D23 /* ProfileHost.swift in Sources */,
 				FEBB6FE226880B3B004CC151 /* Hike.swift in Sources */,
 				FEFEDF8E2686C5C10044CFCB /* RotatedBadgeSymbol.swift in Sources */,
 				FEFEDF892686C2E20044CFCB /* BadgeSymbol.swift in Sources */,
+				FE4DF55D268957C600658D23 /* ProfileEditor.swift in Sources */,
 				FE8CF749268291C500B5BA3A /* LandmarkDetail.swift in Sources */,
 				FEBB6FF126880C81004CC151 /* HikeView.swift in Sources */,
 				FE6F4E3B2681769D00F25FDD /* CircleImage.swift in Sources */,
 				FEFEDF842686BC2E0044CFCB /* BadgeBackground.swift in Sources */,
+				FE4DF55226892D8A00658D23 /* HikeBadge.swift in Sources */,
 				FE8CF75A2682C94A00B5BA3A /* ContentView.swift in Sources */,
 				FE8CF7262682716900B5BA3A /* Landmark.swift in Sources */,
 				FE8CF73C268280CE00B5BA3A /* LandmarkRow.swift in Sources */,
