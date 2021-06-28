@@ -52,7 +52,6 @@ struct ProfileEditor_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ProfileEditor(profile: .constant(.default))
-            ProfileEditor(profile: .constant(.default))
         }
     }
 }
