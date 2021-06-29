@@ -39,6 +39,7 @@
 		FEE79C022680297500900A3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE79C012680297500900A3E /* Preview Assets.xcassets */; };
 		FEE79C0D2680297600900A3E /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE79C0C2680297600900A3E /* LandmarksTests.swift */; };
 		FEE79C182680297600900A3E /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE79C172680297600900A3E /* LandmarksUITests.swift */; };
+		FEE89CAC268BC6F2008F2F59 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE89CAB268BC6F2008F2F59 /* PageControl.swift */; };
 		FEFEDF7F2686B9360044CFCB /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFEDF7E2686B9360044CFCB /* HexagonParameters.swift */; };
 		FEFEDF842686BC2E0044CFCB /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFEDF832686BC2E0044CFCB /* BadgeBackground.swift */; };
 		FEFEDF892686C2E20044CFCB /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFEDF882686C2E20044CFCB /* BadgeSymbol.swift */; };
@@ -102,6 +103,7 @@
 		FEE79C132680297600900A3E /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE79C172680297600900A3E /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		FEE79C192680297600900A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE89CAB268BC6F2008F2F59 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		FEFEDF7E2686B9360044CFCB /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		FEFEDF832686BC2E0044CFCB /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		FEFEDF882686C2E20044CFCB /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				FE92C9E0268AAA42001BADA5 /* PageViewController.swift */,
 				FE92C9E8268AB0DB001BADA5 /* FeatureCard.swift */,
 				FE92C9ED268AB4F9001BADA5 /* PageView.swift */,
+				FEE89CAB268BC6F2008F2F59 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -444,6 +447,7 @@
 				FEE79BFB2680297400900A3E /* LandmarksApp.swift in Sources */,
 				FEBB6FEE26880C81004CC151 /* GraphCapsule.swift in Sources */,
 				FE8CF74126828B3B00B5BA3A /* LandmarkList.swift in Sources */,
+				FEE89CAC268BC6F2008F2F59 /* PageControl.swift in Sources */,
 				FE05B49526856F51004606DB /* FavoriteButton.swift in Sources */,
 				FE4DF52826891AE800658D23 /* CategoryItem.swift in Sources */,
 				FEBB6FF026880C81004CC151 /* HikeDetail.swift in Sources */,
